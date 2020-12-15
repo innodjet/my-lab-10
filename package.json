@@ -1,0 +1,40 @@
+{
+  "name": "boundless-react-challenge",
+  "description": "A music player written in React",
+  "private": true,
+  "author": "Boundless",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "brunch watch --server",
+    "build": "brunch build --production",
+    "test": "mocha test"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "sass": "^1.30.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/polyfill": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.10.4",
+    "app-module-path": "^2.2.0",
+    "auto-reload-brunch": "^2",
+    "babel-brunch": "^7.0.1",
+    "brunch": "^3.0.0",
+    "chai": "^4.2.0",
+    "clean-css-brunch": "^3.0.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jsdom": "^13.2.0",
+    "jsdom-global": "^3.0.2",
+    "mocha": "^6.2.3",
+    "prettier": "^2.0.5",
+    "raf": "^3.4.1",
+    "uglify-js-brunch": "^2"
+  }
+}
